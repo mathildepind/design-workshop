@@ -26,8 +26,7 @@ h4 {font-size: 1.414rem;}
 h1 {
   font-family: 'Alegreya', serif;
   color: #47BFD7;
-
-  line-height: 1;
+  margin-bottom: -20px;
 }
 
 h2 {
@@ -42,7 +41,6 @@ h3 {
 h4 {
   font-family: 'Alegreya', serif;
   color: #E4192A;
-  line-height: 1.25;
 }
 
 b {font-weight: 700;}
@@ -62,19 +60,16 @@ a {color: var(--link-color)}
   flex-grow: 2;
   flex-shrink: 2;
   flex-basis: 66%;
-  /* position: relative; */
 }
 
 .col-2 {
   flex-grow: 1;
   flex-shrink: 2;
   flex-basis: 33%;
-  /* position: absolute; */
 }
 
 .right-img {
   max-width: 35rem;
-
 }
 
 
